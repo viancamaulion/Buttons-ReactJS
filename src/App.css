@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins&family=Tilt+Neon&display=swap');
+
+body{
+  margin-top: 0px;
+  background-color:#606c38;
+}
+.App {
+  text-align: center;
+  display: grid;
+  width: 90vw;
+  margin: 5rem auto;
+  gap: 1rem;
+  font-family: 'Tilt Neon', cursive;
+}
+
+@media screen and (min-width: 800px){
+  .App{
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+.websiteTitle{
+  font-family: 'Cedarville Cursive', cursive;
+  color: white;
+  font-size: 60px;
+  margin-bottom: 0;
+  margin-left: 30%;
+}
+
+h2{
+  font-family: 'Tilt Neon', cursive;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -25px;
+  margin-left: 25%;
+}
+
+.card{
+  background-color: white;
+  max-width: 340px;
+  max-height: 600px;
+  margin: 30px auto;
+  overflow: auto; 
+  min-height: 300px;
+  padding: 25px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 5px 4px #283618;
+  transform: translateY(-5px);
+}
+
+.card img{
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.card p{
+  min-height: 30px;
+  max-height: 30px;
+  text-align: justify;
+  padding: 0px 20px 20px;
+  margin-top: -30px;
+  margin-bottom: 35px;
+}
+
+.card th{
+  min-height: 30px;
+  max-height: 30px;
+}
+.card h3{
+  padding: 0px 20px 20px;
+  text-align: left;
+  width: 180px;
+}
+
+.card h4{
+  padding: 0px 20px 20px;
+  color: #bc4749;
+}
+
+.btnAddCart{
+  background-color: #606c38;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  font-style: bold;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 18px;
+}
+.btnAddCart:hover{
+  background-color: #283618;
+  transform: scale(1.03);
+  transition: 0.1s;
+}
+
+.btnAddFav{
+  background-color: #bc6c25;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  font-style: bold;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 18px;
+}
+.btnAddFav:hover{
+  background-color: #d68c45;
+  transform: scale(1.03);
+  transition: 0.1s;
+}
+
+nav{
+  height: 60px;
+  background-color: #283618;
+  color: white;
+  font-family: Poppins;
+  font-size: 25x;
+  list-style: none;
+}
+nav ul{
+  margin-top: -10px;
+  float: right;
+}
+nav ul li{
+  padding: 28px 20px 20px 20px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li:hover{
+  background-color: #fefae0;
+  color: #dda15e;
+  height: 20px;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+
+footer{
+  background-color: #fefae0;
+  min-height: fit-content;
+  text-align: center;
+  font-family: 'Tilt Neon', cursive;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+
+.socials{
+  list-style: none;
+  margin-left: -35px;
+  color: #d68c45;
+  font-style: normal;
+}
+
+.socials a{
+  text-decoration: none;
+  color: black;
+}
+.socials a:hover{
+  color: #d68c45;
+}

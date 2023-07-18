@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Buttons-ReactJS/static/css/main.28995a61.css",
+    "main.js": "/Buttons-ReactJS/static/js/main.41a6cd31.js",
+    "static/js/787.0dc76ad1.chunk.js": "/Buttons-ReactJS/static/js/787.0dc76ad1.chunk.js",
+    "static/media/Wooven Rattan Rug.png": "/Buttons-ReactJS/static/media/Wooven Rattan Rug.469c5a586dea8dfd7fda.png",
+    "static/media/Phone holder.png": "/Buttons-ReactJS/static/media/Phone holder.5b1e4c994be8c78522e6.png",
+    "static/media/Blackout Curtains.png": "/Buttons-ReactJS/static/media/Blackout Curtains.e0e7e5e3531ed64fb6eb.png",
+    "static/media/Scented Candles.png": "/Buttons-ReactJS/static/media/Scented Candles.ccf79fb569f73b56de04.png",
+    "static/media/Tissue Box.png": "/Buttons-ReactJS/static/media/Tissue Box.7ab76d22d428522d4133.png",
+    "static/media/Nightstand.png": "/Buttons-ReactJS/static/media/Nightstand.0460a5a487e85ae7d760.png",
+    "static/media/Storage Box.png": "/Buttons-ReactJS/static/media/Storage Box.85b291f61efa6b8c0ac5.png",
+    "static/media/Mirror.png": "/Buttons-ReactJS/static/media/Mirror.135de3e1c0fb74e87655.png",
+    "index.html": "/Buttons-ReactJS/index.html",
+    "main.28995a61.css.map": "/Buttons-ReactJS/static/css/main.28995a61.css.map",
+    "main.41a6cd31.js.map": "/Buttons-ReactJS/static/js/main.41a6cd31.js.map",
+    "787.0dc76ad1.chunk.js.map": "/Buttons-ReactJS/static/js/787.0dc76ad1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28995a61.css",
+    "static/js/main.41a6cd31.js"
+  ]
+}
